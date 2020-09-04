@@ -39,6 +39,7 @@
                     android:layout_span="3"
                     android:gravity="center"
                     android:inputType="numberDecimal" />
+
             </TableRow>
 
             <TableRow
