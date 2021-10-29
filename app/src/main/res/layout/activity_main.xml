@@ -8,7 +8,11 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TableLayout
             android:layout_width="match_parent"
@@ -18,7 +22,7 @@
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/textView"
@@ -34,13 +38,17 @@
                     android:layout_height="wrap_content"
                     android:layout_span="3"
                     android:gravity="center"
-                    android:inputType="numberDecimal" />
+                    android:hint="@string/conta"
+                    android:inputType="numberDecimal"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck"
+                    android:importantForAutofill="no" />
+
             </TableRow>
 
             <TableRow
                 android:id="@+id/tableRow2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/textView2"
@@ -55,7 +63,7 @@
             <TableRow
                 android:id="@+id/tableRow3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/textView3"
@@ -72,7 +80,9 @@
                     android:focusable="false"
                     android:gravity="center"
                     android:inputType="numberDecimal"
-                    android:text="5" />
+                    android:text="5"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:importantForAutofill="no" />
 
                 <EditText
                     android:id="@+id/editText3"
@@ -81,7 +91,9 @@
                     android:focusable="false"
                     android:gravity="center"
                     android:inputType="numberDecimal"
-                    android:text="10" />
+                    android:text="10"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:importantForAutofill="no" />
 
                 <EditText
                     android:id="@+id/editText4"
@@ -90,7 +102,9 @@
                     android:focusable="false"
                     android:gravity="center"
                     android:inputType="numberDecimal"
-                    android:text="15" />
+                    android:text="15"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:importantForAutofill="no" />
             </TableRow>
 
             <TableRow
@@ -112,7 +126,9 @@
                     android:layout_height="wrap_content"
                     android:focusable="false"
                     android:gravity="center"
-                    android:inputType="numberDecimal" />
+                    android:inputType="numberDecimal"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                    android:importantForAutofill="no" />
 
                 <EditText
                     android:id="@+id/gorjeta10EditText"
@@ -120,7 +136,9 @@
                     android:layout_height="wrap_content"
                     android:focusable="false"
                     android:gravity="center"
-                    android:inputType="numberDecimal" />
+                    android:inputType="numberDecimal"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                    android:importantForAutofill="no" />
 
                 <EditText
                     android:id="@+id/gorjeta15EditText"
@@ -128,13 +146,15 @@
                     android:layout_height="wrap_content"
                     android:focusable="false"
                     android:gravity="center"
-                    android:inputType="numberDecimal" />
+                    android:inputType="numberDecimal"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                    android:importantForAutofill="no" />
             </TableRow>
 
             <TableRow
                 android:id="@+id/tableRow5"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/textView5"
@@ -149,7 +169,7 @@
             <TableRow
                 android:id="@+id/tableRow6"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/textView6"
@@ -172,13 +192,15 @@
                     android:layout_height="wrap_content"
                     android:focusable="false"
                     android:gravity="center"
-                    android:inputType="numberDecimal" />
+                    android:inputType="numberDecimal"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                    android:importantForAutofill="no" />
             </TableRow>
 
             <TableRow
                 android:id="@+id/tableRow7"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/textView7"
@@ -195,7 +217,9 @@
                     android:layout_span="3"
                     android:focusable="false"
                     android:gravity="center"
-                    android:inputType="numberDecimal" />
+                    android:inputType="numberDecimal"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                    android:importantForAutofill="no" />
             </TableRow>
         </TableLayout>
     </ScrollView>
