@@ -39,9 +39,9 @@
                     android:layout_span="3"
                     android:gravity="center"
                     android:hint="@string/conta"
+                    android:importantForAutofill="no"
                     android:inputType="numberDecimal"
-                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck"
-                    android:importantForAutofill="no" />
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
 
             </TableRow>
 
